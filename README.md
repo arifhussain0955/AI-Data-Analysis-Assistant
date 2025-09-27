@@ -1,10 +1,12 @@
 📊 AI Data Analysis Assistant with Gemini 1.5 Flash
+
 ✨ Overview
 This project is a powerful, interactive web application that transforms natural language questions into data insights. Built with Streamlit, it allows users to upload a CSV or Excel file and query their data using simple English. The core intelligence is powered by Google's Gemini 1.5 Flash model, orchestrated through LangChain's specialized pandas-dataframe-agent, enabling the AI to write and execute Python code to analyze the data.
 
 This application simplifies data analysis, making it accessible to users without a coding background.
 
 🚀 Features
+
 File Flexibility: Supports uploading both CSV and Excel (.xlsx) files.
 
 Gemini 1.5 Flash Intelligence: Leverages the high performance and reasoning capabilities of the gemini-1.5-flash model.
@@ -17,7 +19,9 @@ Interactive UI: A clean, user-friendly interface built with Streamlit for quick 
 
 Real-Time Analysis: Provides immediate answers and insights into your data.
 
+
 ⚙️ Technologies Used
+
 Technology	Purpose
 Python 3.9+	Core programming language.
 Streamlit	Building the interactive web user interface.
@@ -31,7 +35,7 @@ Export to Sheets
 Follow these steps to set up and run the AI Data Analysis Assistant locally.
 
 Prerequisites
-Python 3.9 or higher.
+Python 3.12 or higher.
 
 A Gemini API Key. You can obtain one from Google AI Studio.
 
